@@ -304,11 +304,11 @@ if (projectModal) {
         'A modern commercial development combining functional workspaces with a refined architectural identity.',
 
       images: [
-        'trinetram photos/buty1.png',
-        'trinetram photos/buty3.png',
-        'trinetram photos/buty4.png',
-        'trinetram photos/buty2.png',
-        'trinetram photos/buty1.png',
+        'trinetrambuty/buty1.png',
+        'trinetrambuty/buty3.png',
+        'trinetrambuty/buty4.png',
+        'trinetrambuty/buty2.png',
+        'trinetrambuty/buty1.png',
       ]
     },
 
