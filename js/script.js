@@ -340,11 +340,11 @@ if (projectModal) {
         'A hospitality project combining timeless design, comfortable spaces and a distinctive architectural character.',
 
       images: [
-        'trinetram photos/hospitality1.png',
-        'trinetram photos/hospitality2.png',
-        'trinetram photos/hospitality3.png',
-        'trinetram photos/hospitality4.png',
-        'trinetram photos/hospitality5.png'
+        'trinetramhotel/hospitality1.png',
+        'trinetramhotel/hospitality2.png',
+        'trinetramhotel/hospitality3.png',
+        'trinetramhotel/hospitality4.png',
+        'trinetramhotel/hospitality5.png'
       ]
     },
 
