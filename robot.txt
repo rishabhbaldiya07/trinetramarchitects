@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourwebsite.netlify.app/sitemap.xml
+Sitemap: https://trinetramarchitects.com/sitemap.xml
