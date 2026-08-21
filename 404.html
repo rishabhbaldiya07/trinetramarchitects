@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Page Not Found | Trinetram Group</title>
+<meta name="description" content="The page you're looking for doesn't exist or may have been moved. Return to the Trinetram Group homepage.">
+<meta name="robots" content="noindex, follow">
+
+<!-- Same fonts as the rest of the site -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="images/trinetram-logo.png">
+
+<!-- Reuses the site's existing design system: colors, fonts, .btn, .logo, .eyebrow, fadeUp animation -->
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+  /* ============ 404 PAGE ONLY — nothing here touches existing site styles ============ */
+  .notfound {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8vh 6vw;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Subtle, professional glow behind the 404 mark — not flashy */
+  .notfound::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: min(700px, 90vw);
+    height: min(700px, 90vw);
+    background: radial-gradient(circle, rgba(198, 161, 91, 0.10) 0%, transparent 70%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .notfound-logo {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 64px;
+    opacity: 0;
+    animation: fadeUp 0.9s var(--ease) 0.1s forwards;
+  }
+
+  .notfound-code {
+    position: relative;
+    z-index: 1;
+    font-family: var(--serif);
+    font-weight: 300;
+    font-size: clamp(5.5rem, 18vw, 11rem);
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: var(--gold-2);
+    margin: 0 0 10px;
+    opacity: 0;
+    animation: fadeUp 1s var(--ease) 0.25s forwards;
+  }
+
+  .notfound-title {
+    position: relative;
+    z-index: 1;
+    font-size: clamp(1.7rem, 3.4vw, 2.6rem);
+    margin: 0 0 22px;
+    opacity: 0;
+    animation: fadeUp 1s var(--ease) 0.4s forwards;
+  }
+
+  .notfound-text {
+    position: relative;
+    z-index: 1;
+    max-width: 480px;
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.7;
+    margin: 0 0 46px;
+    opacity: 0;
+    animation: fadeUp 1s var(--ease) 0.55s forwards;
+  }
+
+  .notfound-actions {
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeUp 1s var(--ease) 0.7s forwards;
+  }
+
+  @media (max-width: 520px) {
+    .notfound { padding: 10vh 8vw; }
+    .notfound-logo { margin-bottom: 48px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .notfound-logo,
+    .notfound-code,
+    .notfound-title,
+    .notfound-text,
+    .notfound-actions {
+      animation: none;
+      opacity: 1;
+    }
+  }
+</style>
+</head>
+<body>
+
+<main class="notfound">
+
+  <a href="/" class="logo notfound-logo" aria-label="Trinetram Group — back to homepage">
+    <span class="logo-mark"><img src="images/trinetram-logo.png" alt="Trinetram Group logo"></span>
+    <span class="logo-text">Trinetram<span>Group &middot; Est. 1988</span></span>
+  </a>
+
+  <div class="eyebrow" style="justify-content:center;position:relative;z-index:1;">Error 404</div>
+
+  <p class="notfound-code" aria-hidden="true">404</p>
+
+  <h1 class="notfound-title">Page Not Found</h1>
+
+  <p class="notfound-text">
+    The page you're looking for doesn't exist, may have been moved, or the link may be outdated.
+    Let's get you back to somewhere you'll actually find what you need.
+  </p>
+
+  <div class="notfound-actions">
+    <a href="/" class="btn btn-solid"><span>Back to Trinetram</span></a>
+  </div>
+
+</main>
+
+</body>
+</html>

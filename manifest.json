@@ -1,0 +1,16 @@
+{
+  "name": "Trinetram Group",
+  "short_name": "Trinetram",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080a",
+  "theme_color": "#08080a",
+  "icons": [
+    {
+      "src": "images/Trinetram-app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
