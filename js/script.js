@@ -286,11 +286,11 @@ if (projectModal) {
         'A contemporary residential villa designed with modern architecture, spacious interiors and natural light.',
 
       images: [
-        'trinetram photos/deepak1.png',
-        'trinetram photos/deepak2.png',
-        'trinetram photos/deepak3.png',
-        'trinetram photos/deepak4.png',
-        'trinetram photos/deepak6.png',
+        'trinetramdeepak/deepak1.png',
+        'trinetramdeepak/deepak2.png',
+        'trinetramdeepak/deepak3.png',
+        'trinetramdeepak/deepak4.png',
+        'trinetramdeepak/deepak6.png',
       ]
     },
 
@@ -322,11 +322,11 @@ if (projectModal) {
         'A sophisticated penthouse interior created with contemporary materials, elegant finishes and carefully planned spaces.',
 
       images: [
-        'trinetram photos/laxmi1.png',
-        'trinetram photos/laxmi2.png',
-        'trinetram photos/laxmi3.png',
-        'trinetram photos/laxmi4.png',
-        'trinetram photos/laxmi5.png',
+        'trinetramlaxmi/laxmi1.png',
+        'trinetramlaxmi/laxmi2.png',
+        'trinetramlaxmi/laxmi3.png',
+        'trinetramlaxmi/laxmi4.png',
+        'trinetramlaxmi/laxmi5.png',
       ]
     },
 
@@ -358,11 +358,11 @@ if (projectModal) {
         'A peaceful residential retreat designed around openness, natural surroundings and contemporary living.',
 
       images: [
-        'trinetram photos/elevation10.png',
-        'trinetram photos/elevation13.png',
-        'trinetram photos/elevation4.png',
-        'trinetram photos/elevation11.png',
-        'trinetram photos/elevation12.png',
+        'trinetramelevation/elevation10.png',
+        'trinetramelevation/elevation13.png',
+        'trinetramelevation/elevation4.png',
+        'trinetramelevation/elevation11.png',
+        'trinetramelevation/elevation12.png',
       ]
     },
 
@@ -376,11 +376,11 @@ if (projectModal) {
         'A contemporary corporate development designed to create an efficient, professional and visually distinctive workplace.',
 
       images: [
-        'trinetram photos/mandir1.png',
-        'trinetram photos/mandir2.png',
-        'trinetram photos/mandir3.png',
-        'trinetram photos/mandir5.png',
-        'trinetram photos/mandir1.png'
+        'trinetrammandir/mandir1.png',
+        'trinetrammandir/mandir2.png',
+        'trinetrammandir/mandir3.png',
+        'trinetrammandir/mandir5.png',
+        'trinetrammandir/mandir1.png'
       ]
     }
 
