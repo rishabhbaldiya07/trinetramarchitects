@@ -378,8 +378,8 @@ if (projectModal) {
       images: [
         'trinetrammandir/mandir1.png',
         'trinetrammandir/mandir2.png',
-        'trinetrammandir/mandir3.png',
-        'trinetrammandir/mandir4.png',
+        'trinetrammandir/mandir3.jpg',
+        'trinetrammandir/mandir4.jpg',
         'trinetrammandir/mandir5.png'
       ]
     }
