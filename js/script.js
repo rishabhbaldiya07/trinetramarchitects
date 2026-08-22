@@ -369,7 +369,7 @@ if (projectModal) {
 
     "zenith-corporate-tower": {
       title: 'Zenith Corporate Tower',
-      category: 'our crafted spaces, lasting impression',
+      category: 'Our Crafted Spaces, Lasting Impression',
       location: 'Gurugram, Haryana',
 
       description:
